@@ -1,3 +1,10 @@
+'''
+test_strptime.py - A simple set of tests for parsing dates using
+datetime.strptime
+
+Author Martin Norbury
+September 2012
+'''
 from nose.tools import eq_
 
 from datetime import datetime as dt

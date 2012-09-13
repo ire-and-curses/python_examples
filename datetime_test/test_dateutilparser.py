@@ -1,3 +1,9 @@
+'''
+test_datetimeutil.py - A simple test using dateutil to parse date strings.
+
+Author: Martin Norbury
+September 2012
+'''
 from nose.tools import eq_
 from datetime import datetime as dt
 
