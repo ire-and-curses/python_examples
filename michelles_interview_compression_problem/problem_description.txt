@@ -1,0 +1,33 @@
+The problem at hand is to implement the following compression algorithm:
+- The input is a string, and the output is a compressed string
+- A valid input consists of one or more upper case english letters A-Z
+- To produce the compressed output, any run of two or more of the same
+character should be converted to two of that character plus a number
+indicating how many repeated runs were compressed. Examples:
+    A --> A
+    AA --> AA0
+    AAA --> AA1
+    AAAA --> AA2
+- Only one digit may be used at a time, so if the run is quite long,
+then you must use multiple character/number pairs:
+    AAAAAAAAAA --> AA8
+    AAAAAAAAAAA --> AA9
+    AAAAAAAAAAAA --> AA9A
+    AAAAAAAAAAAAA --> AA9AA0
+    AAAAAAAAAAAAAA --> AA9AA1
+
+The decompression algorithm simply reverses this process. Please
+implement both compress and decompress.
+
+In your response, please include:
+(1) The code, written in Java, Python, or Ruby
+(2) Instructions on how to run it
+(3) Unit tests that demonstrate the correctness of your two functions.
+For example, here are a few interesting inputs that you could test
+with:
+A --> A
+ABAC --> ABAC
+AA --> AA0
+AAB --> AA0B
+AABB --> AA0BB0
+AAACBBC --> AA1CBB0C

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><tns:record_set xmlns:tns="http://www.lcogt.net/sems.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lcogt.net/sems.xsd sems.xsd">
+<record>
+<values>
+<date>2010-10-19 17:28:12</date>
+<battv_min>11.45</battv_min><panel_temp_avg>20.4</panel_temp_avg><watchdog_errors_tot>0</watchdog_errors_tot>
+<mean_wind_speed>0.85</mean_wind_speed><mean_wind_direction>307</mean_wind_direction><std_wind_dir>0</std_wind_dir>
+<rain_mm_tot>0</rain_mm_tot><rh_avg>88.1</rh_avg><airtc_avg>16.7</airtc_avg><dew_point_avg>14.7</dew_point_avg>
+<slrw_avg>42.78</slrw_avg><slrmj_tot>0.0006417172</slrmj_tot><lw_kohm_avg>7999</lw_kohm_avg><lwmv_avg>359.9</lwmv_avg>
+<lwmdry_tot>0</lwmdry_tot><lwmcon_tot>0</lwmcon_tot><lwmwet_tot>12</lwmwet_tot><bp_mmhg_avg>760.9</bp_mmhg_avg>
+<rot_temp_avg>-83.7</rot_temp_avg><rot_rh_avg>-34.5</rot_rh_avg><hmt337_t_avg>-50.1</hmt337_t_avg><hmt337_rh_avg>-5</hmt337_rh_avg>
+<pm05a_avg>0</pm05a_avg><pm07a_avg>0</pm07a_avg><pm1a_avg>0</pm1a_avg><pm2a_avg>0</pm2a_avg><pm3a_avg>0</pm3a_avg><pm5a_avg>0</pm5a_avg>
+<pm7a_avg>0</pm7a_avg><pm10a_avg>0</pm10a_avg><sky_bright_avg>0</sky_bright_avg><electricfield_avg>0</electricfield_avg>
+<cs110_status_max>0</cs110_status_max><boltwood><id>0</id><failed>false</failed><timestamp>2010-10-19 17:28:21</timestamp><temp_c>18.4</temp_c>
+<humidity>84</humidity><dewpoint>15.7</dewpoint><wind_speed>-999</wind_speed><wetness>true</wetness><rain>false</rain><sky_ambient_temp_c>999</sky_ambient_temp_c>
+<daylight_adu>121</daylight_adu></boltwood><boltwood><id>1</id><failed>false</failed><timestamp>2010-10-19 17:28:12</timestamp><temp_c>18.3</temp_c><humidity>83</humidity>
+<dewpoint>15.4</dewpoint><wind_speed>-999</wind_speed><wetness>true</wetness><rain>false</rain><sky_ambient_temp_c>999</sky_ambient_temp_c><daylight_adu>121</daylight_adu>
+</boltwood><boltwood><id>2</id><failed>true</failed></boltwood></values><status><wind_sensor_failed>false</wind_sensor_failed><rain_gauge_failed>true</rain_gauge_failed>
+<hmp_sensor_failed>false</hmp_sensor_failed><hmt_sensor_failed>true</hmt_sensor_failed><rotronic_sensor_failed>true</rotronic_sensor_failed>
+<solar_pyranometer_failed>false</solar_pyranometer_failed><leaf_wetness_failed>false</leaf_wetness_failed><barometer_failed>false</barometer_failed>
+<particulate_monitor_failed>true</particulate_monitor_failed><sky_brightness_failed>true</sky_brightness_failed><electric_field_failed>true</electric_field_failed>
+<battery_failed>false</battery_failed></status><thresholds><threshold_class>0.4m</threshold_class><ok_to_open>false</ok_to_open><weather_safe>false</weather_safe>
+<count_down_to_open>300</count_down_to_open><failure_reason>DewPoint</failure_reason><wind_speed_maximum>20</wind_speed_maximum>
+<relative_humidity_maximum>92.5</relative_humidity_maximum><wetness_mv_maximum>280</wetness_mv_maximum><air_temp_dewpoint_minimum>2</air_temp_dewpoint_minimum>
+<air_temp_maximum>40</air_temp_maximum><air_temp_minimum>-20</air_temp_minimum><pyranometer_maximum>100</pyranometer_maximum><particulate_maximum>2000</particulate_maximum>
+<electric_field_maximum>40</electric_field_maximum><battery_voltage_minimum>10</battery_voltage_minimum></thresholds></record></tns:record_set>
