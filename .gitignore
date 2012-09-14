@@ -1,4 +1,7 @@
+# Vim temp files
 *.swp
+
+# Python bytecode
 *.py[co]
 
 # Packages
